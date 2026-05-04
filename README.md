@@ -82,13 +82,13 @@ Models explored:
 
 
 ### DFT vs Experimental Band Gap
-![DFT vs Expt](images/dft_vs_expt.png)
+![DFT vs Expt](images/DFT Vs Expt.png)
 
 ### Model Prediction vs Actual (Random Forest)
-![Prediction](images/rf_prediction.png)
+![Prediction](images/Prediction.png)
 
 ### Feature Importance (Physical Insights)
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](images/Feature Importance.png)
 
 ---
 
