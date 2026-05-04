@@ -6,15 +6,13 @@ Accurate prediction of electronic band gaps is critical for designing semiconduc
 
 This project addresses that limitation by learning the **error in DFT predictions** instead of directly predicting band gaps. A machine learning framework is developed to model the correction term:
 
-\[
-\Delta = E_{g,\text{expt}} - E_{g,\text{DFT}}
-\]
+<img width="258" height="59" alt="image" src="https://github.com/user-attachments/assets/2be17aab-d43a-4613-8d75-d6089ab4a2c5" />
+
 
 The final prediction is reconstructed as:
 
-\[
-E_{g,\text{final}} = E_{g,\text{DFT}} + \Delta_{\text{predicted}}
-\]
+<img width="331" height="61" alt="image" src="https://github.com/user-attachments/assets/9936282b-5546-446b-9b8a-9431ab49801f" />
+
 
 This approach combines physical modeling with data-driven learning to significantly improve predictive accuracy.
 
